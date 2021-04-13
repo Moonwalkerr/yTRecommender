@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Zen+Dots&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+.App {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+* {
+  margin: 0px;
+}
+body {
+  background-color: beige;
+}
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 12px;
+  background-color: #333;
+  color: yellow;
+  font-size: 46px;
+  text-decoration: underline;
+  font-family: cursive;
+}
+
+#heading {
+  margin-top: 12px;
+}
+
+.foot {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 12px;
+  background-color: #333;
+  color: yellow;
+  font-family: "Open Sans", sans-serif;
+}
+#headingf {
+  font-size: 12px;
+}
+#brand {
+  text-decoration: underline;
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  left: 16px;
+  top: 1px;
+  font-weight: bold;
+}
+
+.meaning {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 42px;
+  /* width: 50%;3
+   */
+}
+.meaning span {
+  margin: 8px 0px;
+  /* font-family: "Dancing Script", cursive; */
+  border-radius: 12px;
+  padding: 6px;
+  color: blue;
+  font-size: 25px;
+  font-weight: 800;
+  box-shadow: 1px 1px 4px black;
+}
+
+.meaning span:hover {
+  text-decoration: underline;
+  box-shadow: 1px 2px 4px black;
+  cursor: pointer;
+}
+
+.meaning span a {
+  color: blue;
+  text-decoration: none;
+}
+
+.meaning span a:hover {
+  color: red;
+  text-decoration: underline;
+}
+#techArr {
+  color: red;
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 4px;
+}
+
+#techArr:hover {
+  font-size: 22px;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: underline;
+}
+input {
+  box-shadow: 1px 1px 2px black;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  text-shadow: 1px 2px 5px black;
+  margin-top: 22px;
+  font-size: 20px;
+  font-family: "Zen Dots", cursive;
+  cursor: pointer;
+}
+
+.para {
+  margin-top: 55px;
+  padding: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  border: 3px solid #333;
+  border-radius: 6px;
+  background-color: #333;
+}
+
+@media screen and (max-width: 990px) {
+  .para {
+    padding: 2px;
+    font-size: 20px;
+  }
+  .meaning span {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .main {
+    width: 100%;
+    font-size: 24px;
+  }
+  #brand {
+    font-size: 12px;
+  }
+  input {
+    font-size: 20px;
+  }
+  .para {
+    padding: 3px;
+    font-size: 16px;
+  }
+  #emojiArr {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .main {
+    font-size: 28px;
+  }
+  .para {
+    font-size: 8px;
+  }
+
+  #emojiArr {
+    background-color: beige;
+    text-decoration: underline;
+  }
+
+  .content {
+    margin: 0px 2px;
+  }
+  #brand {
+    font-size: 12px;
+  }
+}
